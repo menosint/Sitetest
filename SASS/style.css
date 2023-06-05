@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #777;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 30px;
+  background: url(../img/backgrond.jpeg) center/cover no-repeat;
+}
+
+.container {
+  background-color: rgba(200, 205, 214, 0);
+}
+
+.header {
+  height: 95vh;
+  background: linear-gradient(90.05deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%);
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 81%);
+          clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 81%);
+}
+.header__logo {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 90px;
+  width: 70px;
+}
+
+.tittle-first__main {
+  font-weight: 800;
+  color: red;
+  font-size: 76px;
+  letter-spacing: 10px;
+  color: white;
+  text-transform: u;
+}/*# sourceMappingURL=style.css.map */
